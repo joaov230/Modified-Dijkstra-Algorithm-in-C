@@ -32,11 +32,11 @@ Um trabalho para minha disciplina de Estrutura de Dados
 1. Para compilar você deve ter o GCC instalado, aí então vá para a pasta do [mainProject](/mainProject/) e rode o seguinte código no terminal:
    `gcc -o main main.c grafo.c lista_v.c` (Não tenho certeza se funciona no windows, mas se usar o bash do linux no windows, funciona)
 2. Rode main.exe com `./main` (no bash do linux)
-   **Como funciona:**
-3. O primeiro input é o vértice inicial do caminho
-4. O segundo input é o vértice final do caminho
-5. O terceiro input é o vértice intermediário do caminho
-6. A saída será:
+#### Como funciona:
+1. O primeiro input é o vértice inicial do caminho
+2. O segundo input é o vértice final do caminho
+3. O terceiro input é o vértice intermediário do caminho
+4. A saída será:
 
 - Se tem algum caminho (e mostrar o caminho e onde e quanta gasolina o carro precisa reabastecer para seguir viagem em cada posto)
 - Se não tem nenhum caminho possível
