@@ -34,11 +34,11 @@ It's basically an implementation in C of the Dijkstra algorithm, but with some o
 1.  To compile you must have GCC installed, then go to [mainProject folder](/mainProject/), run the following code on the terminal:
     `gcc -o main main.c grafo.c lista_v.c` (Not sure if it works on windows, but it works if you use the bash terminal)
 2.  Run main.exe by typing `./main` on bash terminal
-    **How it works:**
-3.  The first input is the inital vertex of the path
-4.  The second input is the final vertex of the path
-5.  The third input is the middle vertex of the path
-6.  The output will show:
+#### How it works:
+1.  The first input is the inital vertex of the path
+2.  The second input is the final vertex of the path
+3.  The third input is the middle vertex of the path
+4.  The output will show:
 
 - If there's any path (and show the path and where and how much the car must refill it's gas)
 - If there's no possible path at all
