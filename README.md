@@ -1,3 +1,5 @@
+#### Se quiser ler esse README em português, [clique aqui](/READMEPORT.md)
+
 # Modified Dijkstra Algorithm in C
 
 A project for my Data Structure subject
@@ -6,7 +8,7 @@ It's basically an implementation in C of the Dijkstra algorithm, but with some o
 - It finds the shortest **possible** path from the point A to point C, passing through the point B (brute force by combining the weights of each path)
 - By "possible" i mean: the car has 150L of gasoline and some cities have gas station and others don't
 
-**You can find the project's definition (in portuguese) [clicking here](/Project-Definition/Trabalho%20Pr%C3%A1tico.pdf)**
+**You can find the project's definition [clicking here](/Project-Definition/Trabalho%20Pr%C3%A1tico.pdf)**
 
 ## General Information
 
@@ -16,15 +18,13 @@ It's basically an implementation in C of the Dijkstra algorithm, but with some o
 - The map that the program uses is [defined here](/mainProject/Mapa.txt)
 - If you want to create another map, just change the .txt file following the rules below:
 
-'''
+```
 <name of the city (one letter)>,<1 if it has a gas station, 0 if it doesn't>
 <name of the city (one letter)>,<1 if it has a gas station, 0 if it doesn't>
-
 ---
-
 <city 1>, <city 2>, <distance between those 2 cities>
 <city 1>, <city 2>, <distance between those 2 cities>
-'''
+```
 
 - You can enter how many city vertexes you want
 - Those three characters '---' are neccessary to inform the program that all the cities where created, then the connections between the cities are going to be defined
