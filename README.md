@@ -2,7 +2,7 @@
 
 # Modified Dijkstra Algorithm in C
 
-A project for my Data Structure subject
+A project for my Data Structure subject  
 It's basically an implementation in C of the Dijkstra algorithm, but with some other rules:
 
 - It finds the shortest **possible** path from the point A to point C, passing through the point B (brute force by combining the weights of each path)
@@ -31,7 +31,7 @@ It's basically an implementation in C of the Dijkstra algorithm, but with some o
 
 ## Compile and run
 
-1.  To compile you must have GCC installed, then go to [mainProject folder](/mainProject/), run the following code on the terminal:
+1.  To compile you must have GCC installed, then go to [mainProject folder](/mainProject/), run the following code on the terminal:  
     `gcc -o main main.c grafo.c lista_v.c` (Not sure if it works on windows, but it works if you use the bash terminal on windows... and the .h files are broken, just ignore them)
 2.  Run main.exe by typing `./main` on bash terminal
 
