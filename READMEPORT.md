@@ -30,9 +30,11 @@ Um trabalho para minha disciplina de Estrutura de Dados
 ## Compile e rode
 
 1. Para compilar você deve ter o GCC instalado, aí então vá para a pasta do [mainProject](/mainProject/) e rode o seguinte código no terminal:
-   `gcc -o main main.c grafo.c lista_v.c` (Não tenho certeza se funciona no windows, mas se usar o bash do linux no windows, funciona)
+   `gcc -o main main.c grafo.c lista_v.c` (Não tenho certeza se funciona no windows, mas se usar o bash do linux no windows, funciona... e os arquivos .h estão quebrados, só ignorem eles)
 2. Rode main.exe com `./main` (no bash do linux)
+
 #### Como funciona:
+
 1. O primeiro input é o vértice inicial do caminho
 2. O segundo input é o vértice final do caminho
 3. O terceiro input é o vértice intermediário do caminho
