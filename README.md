@@ -27,12 +27,12 @@ It's basically an implementation in C of the Dijkstra algorithm, but with some o
 ```
 
 - You can enter how many city vertexes you want
-- Those three characters '---' are neccessary to inform the program that all the cities where created, then the connections between the cities are going to be defined
+- Those three characters `---` are neccessary to inform the program that all the cities where created, then the connections between the cities are going to be defined
 
 ## Compile and run
 
 1.  To compile you must have GCC installed, then go to [mainProject folder](/mainProject/), run the following code on the terminal:
-    'gcc -o main main.c grafo.c lista_v.c' (Not sure if it works on windows, but it works if you use the bash terminal)
+    `gcc -o main main.c grafo.c lista_v.c` (Not sure if it works on windows, but it works if you use the bash terminal)
 2.  Run main.exe
     **How it works:**
 3.  The first input is the inital vertex of the path
