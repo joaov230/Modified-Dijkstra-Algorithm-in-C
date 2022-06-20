@@ -3,7 +3,8 @@
 Um trabalho para minha disciplina de Estrutura de Dados  
 É basicamente uma implementação em C do algoritmo de Dijkstra, mas com regras extras:
 
-- O programa encontra o menor caminho **possível** do ponto A para o ponto C, passando pelo ponto B (usando força bruta e combinação dos pesos totais de cada caminho)
+- O programa encontra o menor caminho **possível** do ponto A para o ponto C, passando pelo ponto B 
+  - Primeiro eu aplico o Algoritmo de Dijkstra (com a diferença que aqui eu salvo todas as combinações de caminhos) do ponto A para o B e do B para o C, depois eu aplico uma combinação com força bruta, combinando os pesos dos primeiros caminhos com a segunta parte de caminhos
 - Por "possível" eu me refiro a: O carro possui 150L de gasolina e algumas cidades tem posto de gasolina, enquanto outras não
 
 **Você pode achar a definição do trabalho [clicando aqui](/Project-Definition/Trabalho%20Pr%C3%A1tico.pdf)**
