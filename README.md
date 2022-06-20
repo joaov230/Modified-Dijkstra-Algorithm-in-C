@@ -5,7 +5,8 @@
 A project for my Data Structure subject  
 It's basically an implementation in C of the Dijkstra algorithm, but with some other rules:
 
-- It finds the shortest **possible** path from the point A to point C, passing through the point B (brute force by combining the weights of each path)
+- It finds the shortest **possible** path from the point A to point C, passing through the point B 
+  - First i apply Dijkstra's Algorithm from point A to B and B to C, then i brute force the combination of the weights of each "middle path"
 - By "possible" i mean: the car has 150L of gasoline and some cities have gas station to refill and others don't
 
 **You can find the project's definition [clicking here](/Project-Definition/Trabalho%20Pr%C3%A1tico.pdf)**
