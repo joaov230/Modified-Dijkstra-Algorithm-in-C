@@ -1,6 +1,8 @@
 #ifndef GRAFO
 #define GRAFO
 
+#include <stdbool.h>
+
 /////////////
 //
 // Nome: João Vítor Forgearini Beltrame

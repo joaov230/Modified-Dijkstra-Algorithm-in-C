@@ -1,6 +1,8 @@
 #ifndef LISTA
 #define LISTA
 
+#include <stdbool.h>
+
 /////////////
 //
 // Nome: João Vítor Forgearini Beltrame

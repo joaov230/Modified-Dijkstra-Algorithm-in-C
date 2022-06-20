@@ -3,8 +3,9 @@
 #include <stdbool.h>
 #include <string.h>
 #include <limits.h>
-#include "grafo.h"
+
 #include "lista_v.h"
+#include "grafo.h"
 
 struct vertice {
   char nome;
